@@ -34,12 +34,12 @@
   gap: 1rem;
   margin-bottom: 0.8rem;
 }
-.services__icon {
+/* .services__icon {
   color: var(--color-primary);
   margin-top: 4px;
-}
+} */
 .service__list p {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 1024px) {
