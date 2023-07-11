@@ -35,7 +35,7 @@ const DATA = [
   },
   {
     avatr: AVTR4,
-    name: "Asfandiyar Jamali",
+    name: "Asfandyar Jamali",
     review:
       "As a project manager, I've had the pleasure of overseeing Muhammad Yameen's work as a full stack developer, and I must say they are truly exceptional. Their technical prowess and attention to detail are unmatched. They have a natural ability to understand project requirements quickly and translate them into elegant and efficient code. Muhammad Yameen consistently delivers outstanding results, even when faced with tight deadlines. Their strong work ethic, professionalism, and passion for their craft make them an asset to any development team. I wholeheartedly endorse Muhammad Yameen as a top-tier full stack developer.",
   },
@@ -44,7 +44,7 @@ export default function Testimonial() {
   return (
     <section id="testimonial">
       <h5>Review from clients</h5>
-      <h2>Tesimonials</h2>
+      <h2>Testimonials</h2>
       <Swiper
         className="container testimonials__container"
         // install Swiper modules
