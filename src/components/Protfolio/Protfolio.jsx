@@ -1,19 +1,19 @@
 import React from "react";
 import "./Protfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
+import IMG1 from "../../assets/project1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+// import IMG4 from "../../assets/portfolio4.jpg";
+// import IMG5 from "../../assets/portfolio5.png";
+// import IMG6 from "../../assets/portfolio6.jpg";
 
 const DATA = [
   {
     id: 1,
     image: IMG1,
-    title: "Lorem ipsum dolor sit, amet consectetur adipisicing",
-    github: "https://github.com",
-    demo: "https://livedemo.com",
+    title: "Fitness website built in React.js and TypeScript.",
+    github: "https://github.com/myameen123/gym-website",
+    demo: "https://gym-website-yameen.netlify.app/",
   },
   {
     id: 2,
