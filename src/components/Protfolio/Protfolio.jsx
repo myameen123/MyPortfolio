@@ -1,7 +1,7 @@
 import React from "react";
 import "./Protfolio.css";
 import IMG1 from "../../assets/project1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
+import IMG2 from "../../assets/project22.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 // import IMG4 from "../../assets/portfolio4.jpg";
 // import IMG5 from "../../assets/portfolio5.png";
@@ -18,9 +18,10 @@ const DATA = [
   {
     id: 2,
     image: IMG2,
-    title: "Lorem ipsum dolor sit, amet consectetur adipisicing",
-    github: "https://github.com",
-    demo: "hhtps://livedemo.com",
+    title:
+      "I have built this website for a radwi company. using Next.js and Express.js.",
+    github: "https://github.com/myameen123",
+    demo: "https://www.rad-wi.com/",
   },
   {
     id: 3,
