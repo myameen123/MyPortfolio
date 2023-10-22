@@ -3,7 +3,7 @@ import "./Protfolio.css";
 import IMG1 from "../../assets/project1.jpg";
 import IMG2 from "../../assets/project22.jpg";
 import IMG3 from "../../assets/portfolio33.jpg";
-// import IMG4 from "../../assets/portfolio4.jpg";
+import IMG4 from "../../assets/portfolio44.jpg";
 // import IMG5 from "../../assets/portfolio5.png";
 // import IMG6 from "../../assets/portfolio6.jpg";
 
@@ -26,17 +26,18 @@ const DATA = [
   {
     id: 3,
     image: IMG3,
-    title: "MS TODO CLONE: Built in React.js, with Redux for State Management",
+    title: "MS TODO CLONE: Built in React.js, with Redux for State Management.",
     github: "https://github.com/myameen123/ms-todo-clone",
     demo: "https://ms-todo-clone-yameen.vercel.app/",
   },
-  // {
-  //   id: 4,
-  //   image: IMG4,
-  //   title: "Lorem ipsum dolor sit, amet consectetur adipisicing",
-  //   github: "https://github.com",
-  //   demo: "hhtps://livedemo.com",
-  // },
+  {
+    id: 4,
+    image: IMG4,
+    title:
+      "Mdx BLog: A blog app using MDX and Gatsby. The app covers all the core concepts of working with mdx plugin in a gatsby project.",
+    github: "https://github.com/myameen123/MDX-Blog",
+    demo: "https://mdx-blog-posts-gatsby.netlify.app/",
+  },
   // {
   //   id: 5,
   //   image: IMG5,
