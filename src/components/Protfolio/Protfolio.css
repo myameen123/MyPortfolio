@@ -9,6 +9,7 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  height: fit-content;
 }
 .protfolio__item:hover {
   border-color: var(--color-primary-variant);
@@ -26,6 +27,7 @@
 }
 .protfolio__item h3 {
   margin: 1.2rem 0 2rem;
+  font-size: medium;
 }
 .protfolio__item-cta {
   /* background-color: aqua; */
