@@ -13,15 +13,15 @@ export default function Experience() {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__detalis-icon" />
               <div>
-                <h4>HTML</h4>
+                <h4>Next.js</h4>
                 <small className="text-light">Experienced</small>
               </div>{" "}
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__detalis-icon" />
               <div>
-                <h4>CSS</h4>
-                <small className="text-light">Intermediate</small>
+                <h4>React.js</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
@@ -34,7 +34,7 @@ export default function Experience() {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__detalis-icon" />
               <div>
-                <h4>Bootstrap</h4>
+                <h4>Material UI</h4>
                 <small className="text-light">Experienced</small>
               </div>{" "}
             </article>
@@ -48,8 +48,8 @@ export default function Experience() {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__detalis-icon" />
               <div>
-                <h4>React</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Shadcn</h4>
+                <small className="text-light">Intermediate</small>
               </div>{" "}
             </article>
           </div>
@@ -92,7 +92,7 @@ export default function Experience() {
               <BsPatchCheckFill className="experience__detalis-icon" />
               <div>
                 <h4>PHP</h4>
-                <small className="text-light">Basic</small>
+                <small className="text-light">Intermediate</small>
               </div>{" "}
             </article>
 
