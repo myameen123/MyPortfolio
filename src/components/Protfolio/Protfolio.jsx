@@ -2,8 +2,10 @@ import React from "react";
 import "./Protfolio.css";
 import IMG1 from "../../assets/project1.jpg";
 import IMG2 from "../../assets/project22.jpg";
-import IMG3 from "../../assets/portfolio33.jpg";
+import IMG3 from "../../assets/ms-todo.png";
+import IMG7 from "../../assets/photohub.png";
 import IMG4 from "../../assets/portfolio44.jpg";
+import IMG6 from "../../assets/netflix-clone.png";
 import IMG5 from "../../assets/portfolio55_light.jpg";
 // import IMG6 from "../../assets/portfolio6.jpg";
 
@@ -16,6 +18,22 @@ const DATA = [
     demo: "https://myameennotes.vercel.app/",
   },
   {
+    id: 7,
+    image: IMG7,
+    title: "PhotoHub: Cloud-based User Friendly Image Gallery",
+    github: "https://github.com/myameen123/photo-hub.git",
+    demo: "https://photohub-myameen.vercel.app/",
+  },
+  {
+    id: 3,
+    image: IMG6,
+    title:
+      "Netflix Clone: React, NextJS, TailwindCSS & Prisma, NextAuth, Google & Github Login",
+    github: "git clone https://github.com/myameen123/netflix-clone.git",
+    demo: "https://yameen-movies.vercel.app/",
+  },
+
+  {
     id: 2,
     image: IMG3,
     title: "MS TODO CLONE: Built in React.js, with Redux for State Management.",
@@ -23,7 +41,7 @@ const DATA = [
     demo: "https://ms-todo-clone-yameen.vercel.app/",
   },
   {
-    id: 3,
+    id: 6,
     image: IMG2,
     title:
       "I have built this website for a radwi company. using Next.js and Express.js.",
