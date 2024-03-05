@@ -7,7 +7,7 @@ import IMG7 from "../../assets/photohub.png";
 import IMG4 from "../../assets/portfolio44.jpg";
 import IMG6 from "../../assets/netflix-clone.png";
 import IMG5 from "../../assets/portfolio55_light.jpg";
-// import IMG6 from "../../assets/portfolio6.jpg";
+import IMG8 from "../../assets/athlete.jpg";
 
 const DATA = [
   {
@@ -18,7 +18,7 @@ const DATA = [
     demo: "https://myameennotes.vercel.app/",
   },
   {
-    id: 7,
+    id: 2,
     image: IMG7,
     title: "PhotoHub: Cloud-based User Friendly Image Gallery",
     github: "https://github.com/myameen123/photo-hub.git",
@@ -29,16 +29,24 @@ const DATA = [
     image: IMG6,
     title:
       "Netflix Clone: React, NextJS, TailwindCSS & Prisma, NextAuth, Google & Github Login",
-    github: "git clone https://github.com/myameen123/netflix-clone.git",
+    github: "https://github.com/myameen123/netflix-clone.git",
     demo: "https://yameen-movies.vercel.app/",
   },
 
   {
-    id: 2,
+    id: 4,
     image: IMG3,
     title: "MS TODO CLONE: Built in React.js, with Redux for State Management.",
     github: "https://github.com/myameen123/ms-todo-clone",
     demo: "https://ms-todo-clone-yameen.vercel.app/",
+  },
+  {
+    id: 5,
+    image: IMG8,
+    title:
+      "Athlympian: A website where athletes can maintain their,fitness, and find doctor",
+    github: "https://github.com/myameen123/athlympian-frontend",
+    demo: "https://athlympian.vercel.app/",
   },
   {
     id: 6,
@@ -49,7 +57,7 @@ const DATA = [
     demo: "https://www.rad-wi.com/",
   },
   {
-    id: 4,
+    id: 7,
     image: IMG4,
     title:
       "Mdx BLog: A blog app using MDX and Gatsby, with mdx plugin in a gatsby project.",
@@ -57,7 +65,7 @@ const DATA = [
     demo: "https://mdx-blog-posts-gatsby.netlify.app/",
   },
   {
-    id: 5,
+    id: 8,
     image: IMG1,
     title: "Fitness Website: Built in React.js and TypeScript.",
     github: "https://github.com/myameen123/gym-website",
@@ -92,7 +100,7 @@ export default function Protfolio() {
   return (
     <section id="protfolio">
       <h5>My Recent Work</h5>
-      <h2>Protfolio</h2>
+      <h2>Portfolio</h2>
       <div className="container profolio__container">{profolioData}</div>
     </section>
   );
