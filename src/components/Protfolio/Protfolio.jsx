@@ -8,6 +8,7 @@ import IMG4 from "../../assets/portfolio44.jpg";
 import IMG6 from "../../assets/netflix-clone.png";
 import IMG5 from "../../assets/portfolio55_light.jpg";
 import IMG8 from "../../assets/athlete.jpg";
+import IMG9 from "../../assets/penny-tracker.jpg";
 
 const DATA = [
   {
@@ -33,6 +34,13 @@ const DATA = [
     demo: "https://yameen-movies.vercel.app/",
   },
 
+  {
+    id: 9,
+    image: IMG9,
+    title: "Penny Tracker: Personal Finance Management Project",
+    github: "https://github.com/myameen123/penny-tracker",
+    demo: "https://penny-tracker.vercel.app/",
+  },
   {
     id: 4,
     image: IMG3,
